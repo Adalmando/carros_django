@@ -1,0 +1,61 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de configuração pessoais
+*.env
+*.local
+.env.*
+
+# Configuração do editor (opcional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Banco de dados SQLite (local)
+*.sqlite3
+
+# Arquivos de migração do Django (opcional, só ignore se forem temporários)
+# Se não quiser ignorar, remova esta linha.
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Arquivos estáticos e de mídia gerados
+staticfiles/
+static/
+media/
+
+# Cache do Django
+django_cache/
+*.pid
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos compilados de frontend (caso use webpack, etc.)
+node_modules/
+dist/
+build/
+
+# Arquivos de testes e cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Arquivos temporários do sistema ou editores
+*.swp
+*.bak
+*.tmp
